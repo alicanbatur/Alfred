@@ -8,23 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		784FC9A09562FEB5680B1BCC /* Pods_Alfred.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B91528D02B372EADC2D09F1 /* Pods_Alfred.framework */; };
-		CFD32A101E13D6F1002CC56E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD32A0F1E13D6F1002CC56E /* AppDelegate.swift */; };
-		CFD32A121E13D6F1002CC56E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD32A111E13D6F1002CC56E /* ViewController.swift */; };
 		CFD32A151E13D6F1002CC56E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFD32A131E13D6F1002CC56E /* Main.storyboard */; };
 		CFD32A171E13D6F1002CC56E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFD32A161E13D6F1002CC56E /* Assets.xcassets */; };
 		CFD32A1A1E13D6F1002CC56E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFD32A181E13D6F1002CC56E /* LaunchScreen.storyboard */; };
+		CFD32A281E13DC2C002CC56E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD32A271E13DC2C002CC56E /* AppDelegate.swift */; };
+		CFD32A2C1E13F5A3002CC56E /* Alfred.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD32A2B1E13F5A3002CC56E /* Alfred.swift */; };
+		CFD32A2F1E13F733002CC56E /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD32A2E1E13F733002CC56E /* HomeTableViewController.swift */; };
+		CFD32A321E13F775002CC56E /* BaseNavigaitonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD32A311E13F775002CC56E /* BaseNavigaitonController.swift */; };
+		CFD32A371E13FA61002CC56E /* GithubRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD32A361E13FA61002CC56E /* GithubRouter.swift */; };
+		CFD32A3A1E145A14002CC56E /* GithubResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD32A391E145A14002CC56E /* GithubResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1B91528D02B372EADC2D09F1 /* Pods_Alfred.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Alfred.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8943CCEA821C14A88133ECAD /* Pods-Alfred.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alfred.release.xcconfig"; path = "Pods/Target Support Files/Pods-Alfred/Pods-Alfred.release.xcconfig"; sourceTree = "<group>"; };
 		CFD32A0C1E13D6F1002CC56E /* Alfred.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alfred.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CFD32A0F1E13D6F1002CC56E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CFD32A111E13D6F1002CC56E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CFD32A141E13D6F1002CC56E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CFD32A161E13D6F1002CC56E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CFD32A191E13D6F1002CC56E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CFD32A1B1E13D6F1002CC56E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFD32A271E13DC2C002CC56E /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CFD32A291E13DC73002CC56E /* Alfred-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Alfred-Bridging-Header.h"; sourceTree = "<group>"; };
+		CFD32A2B1E13F5A3002CC56E /* Alfred.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alfred.swift; sourceTree = "<group>"; };
+		CFD32A2E1E13F733002CC56E /* HomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		CFD32A311E13F775002CC56E /* BaseNavigaitonController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigaitonController.swift; sourceTree = "<group>"; };
+		CFD32A361E13FA61002CC56E /* GithubRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubRouter.swift; sourceTree = "<group>"; };
+		CFD32A391E145A14002CC56E /* GithubResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubResponse.swift; sourceTree = "<group>"; };
 		D2402C083AB719CB29D684EB /* Pods-Alfred.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alfred.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Alfred/Pods-Alfred.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -69,14 +78,75 @@
 		CFD32A0E1E13D6F1002CC56E /* Alfred */ = {
 			isa = PBXGroup;
 			children = (
-				CFD32A0F1E13D6F1002CC56E /* AppDelegate.swift */,
-				CFD32A111E13D6F1002CC56E /* ViewController.swift */,
-				CFD32A131E13D6F1002CC56E /* Main.storyboard */,
+				CFD32A291E13DC73002CC56E /* Alfred-Bridging-Header.h */,
+				CFD32A221E13DBEA002CC56E /* AppDelegate */,
+				CFD32A231E13DBF3002CC56E /* Scenes */,
+				CFD32A211E13DBE2002CC56E /* Networking */,
 				CFD32A161E13D6F1002CC56E /* Assets.xcassets */,
 				CFD32A181E13D6F1002CC56E /* LaunchScreen.storyboard */,
 				CFD32A1B1E13D6F1002CC56E /* Info.plist */,
 			);
 			path = Alfred;
+			sourceTree = "<group>";
+		};
+		CFD32A211E13DBE2002CC56E /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				CFD32A2B1E13F5A3002CC56E /* Alfred.swift */,
+				CFD32A331E13F79F002CC56E /* Routers */,
+				CFD32A381E1459D5002CC56E /* Models */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		CFD32A221E13DBEA002CC56E /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				CFD32A271E13DC2C002CC56E /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		CFD32A231E13DBF3002CC56E /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				CFD32A131E13D6F1002CC56E /* Main.storyboard */,
+				CFD32A301E13F750002CC56E /* BaseNavigation */,
+				CFD32A2D1E13F71B002CC56E /* Home */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		CFD32A2D1E13F71B002CC56E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CFD32A2E1E13F733002CC56E /* HomeTableViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		CFD32A301E13F750002CC56E /* BaseNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				CFD32A311E13F775002CC56E /* BaseNavigaitonController.swift */,
+			);
+			path = BaseNavigation;
+			sourceTree = "<group>";
+		};
+		CFD32A331E13F79F002CC56E /* Routers */ = {
+			isa = PBXGroup;
+			children = (
+				CFD32A361E13FA61002CC56E /* GithubRouter.swift */,
+			);
+			path = Routers;
+			sourceTree = "<group>";
+		};
+		CFD32A381E1459D5002CC56E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CFD32A391E145A14002CC56E /* GithubResponse.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		E49A63232704F6ECF76684F0 /* Pods */ = {
@@ -123,6 +193,7 @@
 				TargetAttributes = {
 					CFD32A0B1E13D6F1002CC56E = {
 						CreatedOnToolsVersion = 8.1;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -211,8 +282,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFD32A121E13D6F1002CC56E /* ViewController.swift in Sources */,
-				CFD32A101E13D6F1002CC56E /* AppDelegate.swift in Sources */,
+				CFD32A321E13F775002CC56E /* BaseNavigaitonController.swift in Sources */,
+				CFD32A3A1E145A14002CC56E /* GithubResponse.swift in Sources */,
+				CFD32A2F1E13F733002CC56E /* HomeTableViewController.swift in Sources */,
+				CFD32A2C1E13F5A3002CC56E /* Alfred.swift in Sources */,
+				CFD32A281E13DC2C002CC56E /* AppDelegate.swift in Sources */,
+				CFD32A371E13FA61002CC56E /* GithubRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +300,7 @@
 				CFD32A141E13D6F1002CC56E /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		CFD32A181E13D6F1002CC56E /* LaunchScreen.storyboard */ = {
@@ -334,10 +410,13 @@
 			baseConfigurationReference = D2402C083AB719CB29D684EB /* Pods-Alfred.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Alfred/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alikooo.Alfred;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Alfred/Alfred-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -347,10 +426,12 @@
 			baseConfigurationReference = 8943CCEA821C14A88133ECAD /* Pods-Alfred.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Alfred/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.alikooo.Alfred;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Alfred/Alfred-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -374,6 +455,7 @@
 				CFD32A201E13D6F1002CC56E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
