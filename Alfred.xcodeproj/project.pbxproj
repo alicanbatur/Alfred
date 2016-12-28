@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFD32A101E13D6F1002CC56E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD32A0F1E13D6F1002CC56E /* AppDelegate.swift */; };
+		CFD32A121E13D6F1002CC56E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD32A111E13D6F1002CC56E /* ViewController.swift */; };
+		CFD32A151E13D6F1002CC56E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFD32A131E13D6F1002CC56E /* Main.storyboard */; };
+		CFD32A171E13D6F1002CC56E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFD32A161E13D6F1002CC56E /* Assets.xcassets */; };
+		CFD32A1A1E13D6F1002CC56E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFD32A181E13D6F1002CC56E /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CFD32A0C1E13D6F1002CC56E /* Alfred.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alfred.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFD32A0F1E13D6F1002CC56E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CFD32A111E13D6F1002CC56E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CFD32A141E13D6F1002CC56E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFD32A161E13D6F1002CC56E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFD32A191E13D6F1002CC56E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CFD32A1B1E13D6F1002CC56E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFD32A091E13D6F1002CC56E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFD32A031E13D6F1002CC56E = {
+			isa = PBXGroup;
+			children = (
+				CFD32A0E1E13D6F1002CC56E /* Alfred */,
+				CFD32A0D1E13D6F1002CC56E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFD32A0D1E13D6F1002CC56E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFD32A0C1E13D6F1002CC56E /* Alfred.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFD32A0E1E13D6F1002CC56E /* Alfred */ = {
+			isa = PBXGroup;
+			children = (
+				CFD32A0F1E13D6F1002CC56E /* AppDelegate.swift */,
+				CFD32A111E13D6F1002CC56E /* ViewController.swift */,
+				CFD32A131E13D6F1002CC56E /* Main.storyboard */,
+				CFD32A161E13D6F1002CC56E /* Assets.xcassets */,
+				CFD32A181E13D6F1002CC56E /* LaunchScreen.storyboard */,
+				CFD32A1B1E13D6F1002CC56E /* Info.plist */,
+			);
+			path = Alfred;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFD32A0B1E13D6F1002CC56E /* Alfred */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFD32A1E1E13D6F1002CC56E /* Build configuration list for PBXNativeTarget "Alfred" */;
+			buildPhases = (
+				CFD32A081E13D6F1002CC56E /* Sources */,
+				CFD32A091E13D6F1002CC56E /* Frameworks */,
+				CFD32A0A1E13D6F1002CC56E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alfred;
+			productName = Alfred;
+			productReference = CFD32A0C1E13D6F1002CC56E /* Alfred.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFD32A041E13D6F1002CC56E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = alikoo;
+				TargetAttributes = {
+					CFD32A0B1E13D6F1002CC56E = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CFD32A071E13D6F1002CC56E /* Build configuration list for PBXProject "Alfred" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFD32A031E13D6F1002CC56E;
+			productRefGroup = CFD32A0D1E13D6F1002CC56E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFD32A0B1E13D6F1002CC56E /* Alfred */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFD32A0A1E13D6F1002CC56E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFD32A1A1E13D6F1002CC56E /* LaunchScreen.storyboard in Resources */,
+				CFD32A171E13D6F1002CC56E /* Assets.xcassets in Resources */,
+				CFD32A151E13D6F1002CC56E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFD32A081E13D6F1002CC56E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFD32A121E13D6F1002CC56E /* ViewController.swift in Sources */,
+				CFD32A101E13D6F1002CC56E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CFD32A131E13D6F1002CC56E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFD32A141E13D6F1002CC56E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CFD32A181E13D6F1002CC56E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFD32A191E13D6F1002CC56E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFD32A1C1E13D6F1002CC56E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CFD32A1D1E13D6F1002CC56E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFD32A1F1E13D6F1002CC56E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Alfred/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alikooo.Alfred;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CFD32A201E13D6F1002CC56E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Alfred/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alikooo.Alfred;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFD32A071E13D6F1002CC56E /* Build configuration list for PBXProject "Alfred" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFD32A1C1E13D6F1002CC56E /* Debug */,
+				CFD32A1D1E13D6F1002CC56E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFD32A1E1E13D6F1002CC56E /* Build configuration list for PBXNativeTarget "Alfred" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFD32A1F1E13D6F1002CC56E /* Debug */,
+				CFD32A201E13D6F1002CC56E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFD32A041E13D6F1002CC56E /* Project object */;
+}
