@@ -4,13 +4,13 @@ target 'Alfred' do
   use_frameworks!
 
   # Networking
-  pod 'Alamofire'								# https://github.com/Alamofire/Alamofire
+  pod 'Alamofire'               # https://github.com/Alamofire/Alamofire
     
   # Mapping
-  pod 'AlamofireObjectMapper'					# https://github.com/tristanhimmelman/AlamofireObjectMapper
+  pod 'AlamofireObjectMapper'   # https://github.com/tristanhimmelman/AlamofireObjectMapper
 
-  # UI
-  pod 'SDWebImage'                              # https://github.com/rs/SDWebImage
+  # Promise
+  pod 'PromiseKit'              # https://github.com/mxcl/PromiseKit
 
 end
 

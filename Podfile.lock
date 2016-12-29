@@ -4,21 +4,29 @@ PODS:
     - Alamofire (~> 4.1)
     - ObjectMapper (~> 2.0)
   - ObjectMapper (2.2.2)
-  - SDWebImage (3.8.2):
-    - SDWebImage/Core (= 3.8.2)
-  - SDWebImage/Core (3.8.2)
+  - PromiseKit (4.1.0):
+    - PromiseKit/Foundation (= 4.1.0)
+    - PromiseKit/QuartzCore (= 4.1.0)
+    - PromiseKit/UIKit (= 4.1.0)
+  - PromiseKit/CorePromise (4.1.0)
+  - PromiseKit/Foundation (4.1.0):
+    - PromiseKit/CorePromise
+  - PromiseKit/QuartzCore (4.1.0):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (4.1.0):
+    - PromiseKit/CorePromise
 
 DEPENDENCIES:
   - Alamofire
   - AlamofireObjectMapper
-  - SDWebImage
+  - PromiseKit
 
 SPEC CHECKSUMS:
   Alamofire: aa2e09d871c9160ac53c90e83c68064a94e3dfbe
   AlamofireObjectMapper: 842d2eed43a4d0593ff0110d54ac86a170c4519c
   ObjectMapper: 9e385c2295bcc4e16eabbcfc85db801442bba545
-  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  PromiseKit: c98453ff78544c0ad5bb0ea980782e6875f47978
 
-PODFILE CHECKSUM: 0ab2c8b1a8440b7300d695866dc65caf0a018fa5
+PODFILE CHECKSUM: 6a6f86ca1080a3906ec036e3e084f18053c26def
 
 COCOAPODS: 1.2.0.beta.1
