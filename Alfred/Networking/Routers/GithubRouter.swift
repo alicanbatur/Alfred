@@ -26,24 +26,34 @@ enum GithubRouter: URLRequestConvertible {
             }
         }
         
-        let params: ([String: Any]?) = {
+        let endPoint: String = {
             switch self {
             case .getUser:
+                return "/user"
+            }
+        }()
+        
+        let urlData: String? = {
+            switch self {
+            case .getUser(let name):
+                return name
+            }
+        }()
+        
+        let postData: [String: Any]? = {
+            switch self {
+            default:
                 return nil
             }
         }()
         
         let url:URL = {
-            // build up and return the URL for each endpoint
-            let relativePath:String?
-            switch self {
-            case .getUser(let name):
-                relativePath = "/users/\(name)"
-            }
             
             var url = URL(string: GithubRouter.baseURLString)!
-            if let relativePath = relativePath {
-                url = url.appendingPathComponent(relativePath)
+            url = url.appendingPathComponent(endPoint)
+            
+            if let urlData = urlData {
+                url = url.appendingPathComponent(urlData)
             }
             return url
         }()
@@ -52,6 +62,6 @@ enum GithubRouter: URLRequestConvertible {
         urlRequest.httpMethod = method.rawValue
         
         let encoding = JSONEncoding.default
-        return try encoding.encode(urlRequest, with: params)
+        return try encoding.encode(urlRequest, with: postData)
     }
 }

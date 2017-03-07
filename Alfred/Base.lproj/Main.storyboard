@@ -9,39 +9,59 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Home Table View Controller-->
+        <!--Alfred Example-->
         <scene sceneID="1Lr-vd-Csm">
             <objects>
                 <tableViewController storyboardIdentifier="HomeTableViewController" id="nGP-o3-MxQ" customClass="HomeTableViewController" customModule="Alfred" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="epd-Og-VWx">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="epd-Og-VWx">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="vgx-zd-zyw">
-                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="vgx-zd-zyw" id="yLF-RH-rcr">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
+                        <sections>
+                            <tableViewSection id="LqW-ZU-Yxb">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Github" textLabel="E3u-IX-IvU" detailTextLabel="KO1-xK-CK3" rowHeight="50" style="IBUITableViewCellStyleSubtitle" id="vgx-zd-zyw">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="vgx-zd-zyw" id="yLF-RH-rcr">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Github - User Data" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="E3u-IX-IvU">
+                                                    <rect key="frame" x="15" y="7" width="144" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Example for httpMethod.get" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="KO1-xK-CK3">
+                                                    <rect key="frame" x="15" y="28" width="159" height="15"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
                         <connections>
                             <outlet property="dataSource" destination="nGP-o3-MxQ" id="d7z-Vy-vR7"/>
                             <outlet property="delegate" destination="nGP-o3-MxQ" id="4wi-T3-Rwp"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="1fr-UC-l8Q"/>
+                    <navigationItem key="navigationItem" title="Alfred Example" id="1fr-UC-l8Q"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="E3i-ke-AmC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1332" y="-284.70764617691157"/>
         </scene>
-        <!--Base Navigaiton Controller-->
+        <!--Base Navigation Controller-->
         <scene sceneID="dmq-z5-B2m">
             <objects>
-                <navigationController storyboardIdentifier="BaseNavigaitonController" automaticallyAdjustsScrollViewInsets="NO" id="IkE-0F-YdA" customClass="BaseNavigaitonController" customModule="Alfred" customModuleProvider="target" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="BaseNavigationController" automaticallyAdjustsScrollViewInsets="NO" id="IkE-0F-YdA" customClass="BaseNavigationController" customModule="Alfred" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="e3H-qC-3sv">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>

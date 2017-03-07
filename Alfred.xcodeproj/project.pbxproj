@@ -14,7 +14,7 @@
 		CFD32A281E13DC2C002CC56E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD32A271E13DC2C002CC56E /* AppDelegate.swift */; };
 		CFD32A2C1E13F5A3002CC56E /* Alfred.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD32A2B1E13F5A3002CC56E /* Alfred.swift */; };
 		CFD32A2F1E13F733002CC56E /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD32A2E1E13F733002CC56E /* HomeTableViewController.swift */; };
-		CFD32A321E13F775002CC56E /* BaseNavigaitonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD32A311E13F775002CC56E /* BaseNavigaitonController.swift */; };
+		CFD32A321E13F775002CC56E /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD32A311E13F775002CC56E /* BaseNavigationController.swift */; };
 		CFD32A371E13FA61002CC56E /* GithubRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD32A361E13FA61002CC56E /* GithubRouter.swift */; };
 		CFD32A3A1E145A14002CC56E /* GithubResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD32A391E145A14002CC56E /* GithubResponse.swift */; };
 /* End PBXBuildFile section */
@@ -31,7 +31,7 @@
 		CFD32A291E13DC73002CC56E /* Alfred-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Alfred-Bridging-Header.h"; sourceTree = "<group>"; };
 		CFD32A2B1E13F5A3002CC56E /* Alfred.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alfred.swift; sourceTree = "<group>"; };
 		CFD32A2E1E13F733002CC56E /* HomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
-		CFD32A311E13F775002CC56E /* BaseNavigaitonController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigaitonController.swift; sourceTree = "<group>"; };
+		CFD32A311E13F775002CC56E /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
 		CFD32A361E13FA61002CC56E /* GithubRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubRouter.swift; sourceTree = "<group>"; };
 		CFD32A391E145A14002CC56E /* GithubResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubResponse.swift; sourceTree = "<group>"; };
 		D2402C083AB719CB29D684EB /* Pods-Alfred.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alfred.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Alfred/Pods-Alfred.debug.xcconfig"; sourceTree = "<group>"; };
@@ -128,7 +128,7 @@
 		CFD32A301E13F750002CC56E /* BaseNavigation */ = {
 			isa = PBXGroup;
 			children = (
-				CFD32A311E13F775002CC56E /* BaseNavigaitonController.swift */,
+				CFD32A311E13F775002CC56E /* BaseNavigationController.swift */,
 			);
 			path = BaseNavigation;
 			sourceTree = "<group>";
@@ -282,7 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFD32A321E13F775002CC56E /* BaseNavigaitonController.swift in Sources */,
+				CFD32A321E13F775002CC56E /* BaseNavigationController.swift in Sources */,
 				CFD32A3A1E145A14002CC56E /* GithubResponse.swift in Sources */,
 				CFD32A2F1E13F733002CC56E /* HomeTableViewController.swift in Sources */,
 				CFD32A2C1E13F5A3002CC56E /* Alfred.swift in Sources */,
@@ -413,7 +413,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Alfred/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.alikooo.Alfred;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alikooo.Alfred.debug;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Alfred/Alfred-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";

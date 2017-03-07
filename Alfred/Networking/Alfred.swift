@@ -10,17 +10,22 @@ import UIKit
 
 import Alamofire
 import AlamofireObjectMapper
+import PromiseKit
 
 class Alfred {
     
-    typealias errorHandler = (_ error: Error) -> ()
+    typealias errorHandler = (_ error: Error?) -> ()
     
-    class func getUserFromGithub(name: String,
-                           success: ((_ result: GithubResponse) -> ()),
-                           failure: (errorHandler) = { _ in }) {
-        Alamofire.request(GithubRouter.getUser(name)).responseObject { (response: DataResponse<GithubResponse>) in
-            let githubResponse = response.result.value
-            print(githubResponse?.bio)
+    class func getUserFromGithub(name: String) -> Promise<GithubResponse> {
+        // Alfred promises to return kind of class GithubResponse
+        return Promise { fulfill, reject in
+            Alamofire.request(GithubRouter.getUser(name)).responseObject { (response: DataResponse<GithubResponse>) in
+                guard let githubResponse = response.result.value else {
+                    reject(response.result.error!)
+                    return
+                }
+                fulfill(githubResponse)
+            }
         }
     }
     
